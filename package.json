@@ -1,0 +1,43 @@
+{
+  "name": "ibudget",
+  "version": "1.0.0",
+  "description": "A smart budgeting application to help everyone better manage the money",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianhansa/iBudget.git"
+  },
+  "keywords": [
+    "budget",
+    "managing",
+    "money",
+    "finance",
+    "tracking",
+    "expenses",
+    "incomes",
+    "household",
+    "budget",
+    "savings"
+  ],
+  "author": "Adrian Hansa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianhansa/iBudget/issues"
+  },
+  "homepage": "https://github.com/adrianhansa/iBudget#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
